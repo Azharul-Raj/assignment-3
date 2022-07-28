@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -11,6 +12,30 @@ body{
 
 
 
-/* .register-height{
-    height: 300px;
-} */
+/* tablet media start */
+@media only screen and (max-width: 540px) and (max-width: ) {
+
+}
+/* tablet media end */
+/* mobile media start  */
+@media only screen and (max-width: 540px) {
+    .single-course{
+        display: flex;
+        flex-direction: column;
+    }
+    .course-img{
+        max-height: 250px;
+        max-width: 340px;
+    }
+.tablet-mobile{
+    display: none;
+}
+
+.register{
+    margin-top: 20px;
+}
+    .sponsor{
+        display: none;
+    }
+}
+/* mobile media end */
