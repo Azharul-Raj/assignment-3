@@ -53,7 +53,7 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/cover/image.jpg" class="d-block w-100" alt="...">
+                <img src="./images/cover/image.jpg" class="d-block w-100 rounded-3" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="h1">First slide label</h5>
                     <p class="">Some representative placeholder content for the first slide.</p>
@@ -73,9 +73,9 @@
     </header>
     <main>
       <section class="courses">
-        <div class="container">
-          <h2 class="h1 text-center">Explore Our Best Courses</h2>
-          <p class="text-center">Here you will find our popular courses that are the best selling.Just take a look at the courses section for a second you will be amazed.</p>
+        <div class="container my-lg-5 my-md-5">
+          <h2 class="h1 text-center pt-lg-5">Explore Our Best Courses</h2>
+          <p class="text-center pb-lg-4">Here you will find our popular courses that are the best selling.Just take a look at the courses section for a second you will be amazed.</p>
           <div class="row">
             <!-- left courses start -->
             <div class="col-lg-6 col-md-12">
@@ -151,6 +151,66 @@
           </div>
         </div>
       </section>
+      <!-- Register section start -->
+      <section class="register">
+        <div class="container bg-info rounded-3 register-height">
+          <div class="row">
+            <div class="col-lg-6 p-lg-5 pt-md-5 pt-sm-5">
+              <div class="text-part text-lg-start text-md-center">
+                <h2 class="fs-1 fw-bold text-white">Ready to join?</h2>
+                <p class="text-white">If you wanna join in our community just click on the register button.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 p-lg-5 pb-md-5 pb-sm-5">
+              <!-- Modal start -->
+              <div class="m-reg-btn text-center">
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-light text-info fw-bold my-lg-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Register Now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Join Our Community</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- modal form start -->
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Enter Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Create your strong Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I will follow every single rule of the community</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+        <!-- modal form end -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Not Interested</button>
+        <button type="button" class="btn btn-primary">Complete</button>
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+              <!-- Modal end -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Register section end -->
         <!-- FAQ section start -->
     <section class="container py-5">
         <h2 class="h1 text-center">Frequently Asked Questions</h2>
@@ -253,9 +313,21 @@
     </main>
     <footer>
       <div class="main-footer">
-
+        <p>Office 41, Zawaya Buildin, Ghala Muscat, <br>
+          Sultanate of Oman</p>
+          <div class="terms">
+            <p>Privacy Ploicy  |   Terms of use</p>
+          </div>
+          <div class="social-icon">
+            
+          </div>
       </div>
     </footer>
+    
+    <script>
+      // modal javascript
+
+    </script>
     <!-- bootstrap javascript cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
