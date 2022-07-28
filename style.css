@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+    
 }
 
 
@@ -13,12 +13,16 @@ body{
 
 
 /* tablet media start */
-@media only screen and (max-width: 540px) and (max-width: ) {
-
+@media only screen and (min-width: 541px) and (max-width:1200px ) {
+ 
 }
 /* tablet media end */
 /* mobile media start  */
 @media only screen and (max-width: 540px) {
+    .img-part{
+        width: 335px;
+        height: 362px;
+    }
     .single-course{
         display: flex;
         flex-direction: column;
@@ -27,15 +31,11 @@ body{
         max-height: 250px;
         max-width: 340px;
     }
-.tablet-mobile{
-    display: none;
-}
+
 
 .register{
     margin-top: 20px;
 }
-    .sponsor{
-        display: none;
-    }
+   
 }
 /* mobile media end */
